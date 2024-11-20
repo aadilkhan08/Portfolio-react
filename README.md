@@ -86,7 +86,7 @@ Feel free to personalize the portfolio by editing the content in the following f
 
 ## Live Demo
 
-You can see the live version of the portfolio at [your live URL here] (insert your live URL or GitHub Pages link).
+https://aadil-portfolioo.netlify.app/
 
 ## Contributing
 
