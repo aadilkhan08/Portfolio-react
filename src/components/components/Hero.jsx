@@ -3,6 +3,8 @@ import message from '../../assets/icon2.png'
 import { motion } from 'framer-motion'
 import profilepic from '../../assets/profilepic.png'
 import React from 'react'
+import resume from '../../assets/Aadil Khan Web Developer m.pdf'
+
 
 function Hero () {
   return (
@@ -20,7 +22,7 @@ function Hero () {
         </div>
 
         <motion.div
-          className='md:block hidden absolute left-[280px] top-[170px]'
+          className='md:block hidden absolute left-[200px] top-[170px]'
           drag
         >
           <img
@@ -51,7 +53,16 @@ function Hero () {
           I am a full-stack developer dedicated to building websites that
           deliver exceptional user experiences.
         </p>
-
+            <a
+              href={resume}
+              cursor='pointer'
+              download='Aadil Khan Resume'
+              className='mr-12 mt-5 relative overflow-hidden block w-full text-center'
+            >
+              <button className='animate-gradient-xy  bg-gradient-to-r from-orange-700 to-orange-400 text-white px-4 py-2 rounded-xl font-semibold text-lg'>
+                Download Resume
+              </button>
+            </a>
         <img
           src={profilepic}
           alt='profilepicture'

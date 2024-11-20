@@ -53,6 +53,7 @@ function Navigation () {
               </div>
             </a>
           </li>
+       
         </ul>
       </div>
 
@@ -72,11 +73,9 @@ function Navigation () {
         <ul className='text-2xl font-semibold my-5 text-center space-y-2'>
           {navLinks.map((item, index) => (
             <li key={index}>
-                            <a href={item.path} onClick={closeNav} b>{item.title}</a>
-
-              {/* <Link to={item.path} onClick={closeNav}>
+              <a href={item.path} onClick={closeNav} b>
                 {item.title}
-              </Link> */}
+              </a>
             </li>
           ))}
         </ul>
